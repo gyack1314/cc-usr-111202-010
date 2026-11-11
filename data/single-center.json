@@ -1,0 +1,19 @@
+{
+  "centers": [
+    {
+      "id": "c0",
+      "expected": "2",
+      "observed": 0
+    }
+  ],
+  "edges": [],
+  "radii": [
+    0,
+    1,
+    2
+  ],
+  "draws": 999,
+  "seed": 313,
+  "exact_state_budget": 100000,
+  "comparison_tolerance": 1e-12
+}

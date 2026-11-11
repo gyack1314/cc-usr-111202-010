@@ -1,0 +1,56 @@
+{
+  "centers": [
+    {
+      "id": "c0",
+      "expected": "2",
+      "observed": 0
+    },
+    {
+      "id": "c1",
+      "expected": "3",
+      "observed": 0
+    },
+    {
+      "id": "c2",
+      "expected": "2",
+      "observed": 0
+    },
+    {
+      "id": "c3",
+      "expected": "4",
+      "observed": 0
+    },
+    {
+      "id": "c4",
+      "expected": "1",
+      "observed": 0
+    }
+  ],
+  "edges": [
+    [
+      "c0",
+      "c1"
+    ],
+    [
+      "c1",
+      "c2"
+    ],
+    [
+      "c2",
+      "c3"
+    ],
+    [
+      "c3",
+      "c4"
+    ]
+  ],
+  "radii": [
+    0,
+    1,
+    2
+  ],
+  "draws": 999,
+  "seed": 313,
+  "exact_state_budget": 100000,
+  "comparison_tolerance": 1e-12
+}
