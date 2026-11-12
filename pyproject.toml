@@ -3,3 +3,7 @@ name = "research-material-10"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.optional-dependencies]
+# 仅 scan --engine numpy 的批量矩阵加速需要；基准纯 Python 引擎零依赖
+numpy = ["numpy>=1.24"]
